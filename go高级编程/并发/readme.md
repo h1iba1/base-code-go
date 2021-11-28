@@ -140,5 +140,14 @@ func main()  {
 ```
 最后一句select{}是一个空的通道选择语句，该语句会导致main线程阻塞，从而避免程序过早退出。还有for{}、<-make(chan int)等诸多方法可以达到类似的效果。因为main线程被阻塞了，如果需要程序正常退出的话，可以通过调用os.Exit(0)实现。
 
+### context
+
+context 用来解决 goroutine 之间退出通知、元数据传递的功能。
+
+[深度解密Go语言之context](https://zhuanlan.zhihu.com/p/68792989)
+
 ### 参考
 《go语言高级编程》1.5面向并发的内存模型
+
+[Golang 编程思维和工程实战](https://mp.weixin.qq.com/s/llmE9QpnrvA02AtvfHtqJQ)
+
