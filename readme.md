@@ -11,8 +11,8 @@
 
 ## 最佳实践
 主要记载一些在实际编程中遇到的一些通用实践的最佳实践
-
+### [tcp-scanner-demo](./best-practices/tcp-scanner/readme.md)
 
 ## go常用库
 主要记载一些开发过程中用到的优秀类库
-### [log库](common-lib/readme.md)(#logus)
+### [log库](common-lib/logus/readme.md)(#logus库学习)
