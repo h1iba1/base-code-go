@@ -16,3 +16,5 @@
 ## go常用库
 主要记载一些开发过程中用到的优秀类库
 ### [log库](common-lib/logus/readme.md)(#logus库学习)
+### [os/exec库] //TODO
+### [net/http库](common-lib/net-http/readme.md)
