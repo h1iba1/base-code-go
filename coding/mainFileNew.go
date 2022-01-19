@@ -47,7 +47,7 @@ func GetALLX(path string,files[] string, level int) ([]string,error) {
 }
 
 func mainx()  {
-	path :="/Users/h11ba1/Desktop/go/codeing"
+	path :="/Users/h11ba1/Desktop/go/coding"
 	files:=[]string{}	//数组字符串
 
 	tmplevel=1
