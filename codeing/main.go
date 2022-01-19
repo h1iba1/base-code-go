@@ -2,6 +2,7 @@ package main
 
 import (
 	"codeing/ArrayList"
+	"codeing/Queue"
 	"codeing/StackArray"
 	"fmt"
 )
@@ -92,4 +93,23 @@ func mainStackArray(){
 	fmt.Println(mystack.Pop())
 	fmt.Println(mystack.Pop())
 	fmt.Println(mystack.Pop())
+}
+
+func mainQueue()  {
+	myq :=Queue.NewQueue()
+	myq.EnQueue(1)
+	myq.EnQueue(2)
+	myq.EnQueue(3)
+	myq.EnQueue(4)
+	myq.EnQueue(5)
+	fmt.Println(myq.Dequeue())
+	fmt.Println(myq.Dequeue())
+	fmt.Println(myq.Dequeue())
+	fmt.Println(myq.Dequeue())
+	fmt.Println(myq.Dequeue())
+	fmt.Println(myq.Dequeue())
+	myq.EnQueue(5)
+	fmt.Println(myq.Dequeue())
+
+
 }

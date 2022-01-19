@@ -20,12 +20,14 @@
 ## go常用库
 主要记载一些开发过程中用到的优秀类库
 ### [log库](common-lib/logus/readme.md)(#logus库学习)
-### [os/exec库] //TODO
+### [os/exec库](common-lib/os-exec/readme.md)
 ### [net/http库](common-lib/net-http/readme.md)
 ### [IO库](common-lib/IO/readme.md)
+### [context库](common-lib/Context/context包.md)
 
 ## 数据结构
-### [列表](codeing/ArrayList/ArrayList.md)
+### [列表](codeing/ArrayList/List.md)
 ### [列表迭代器](codeing/ArrayList/ArrayListIterator.md)
 ### [栈](codeing/StackArray/StackArray.md)
 #### [栈实现文件目录遍历](codeing/mainFile.md)
+### [队列](codeing/Queue/Queue.md)
