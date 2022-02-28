@@ -22,6 +22,9 @@
 ### tcp-scanner-demo
 见 [tcp-scanner-demo](./best-practices/tcp-scanner/readme.md)
 
+### netcat-demo
+见 [netcat-demo](./best-practices/netcat-demo/readme.md)
+
 ## go常用库
 主要记载一些开发过程中用到的优秀类库
 ### log库
@@ -54,3 +57,21 @@
 
 ### 队列
 见 [队列](coding/Queue/Queue.md)
+
+## 算法
+### 排序
+#### 冒泡排序
+见[冒泡排序](coding/sort/bubbleSort.md)
+
+#### 选择排序
+见[选择排序](coding/sort/selectSort.md)
+
+#### 插入排序
+见[插入排序](coding/sort/InsertSort.md)
+
+#### 堆排序
+见[堆排序](coding/sort/heapSort.md)
+
+### 查找
+#### 二分查找法
+见[二分查找法](coding/find/binSearch.md)
